@@ -52,9 +52,7 @@ public class DetectionFragment extends Fragment {
             } else {
                 stopDetection();
             }
-            if(!checkPermission()){
-                requestPermission();
-            }
+
         });
 
         return view;
